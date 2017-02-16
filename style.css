@@ -1,0 +1,76 @@
+body{
+  background-color: gray;
+  background-image: url('background.jpg');
+  background-position: top left;
+  background-repeat: repeat;
+ }
+
+#app {
+  color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  display: inline;
+  width: 200px;
+  height: 100px;
+}
+
+#footer {
+  width: 100%;
+  border-top: solid 2px black;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  text-decoration-color: black;
+}
+
+#input-parent {
+  display: inline;
+  width: 160px;
+  margin: 0 auto 0 auto;
+}
+
+input#player-input {
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  font-size: 30px;
+  /* border: 1px solid gray; */
+}
+
+button#submit {
+  position: relative;
+  top: 25px;
+  left: -35px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+#guess-list {
+  margin: 50px auto 50px auto;
+}
+
+#guess-list li {
+  display: inline;
+  padding: 0 20px;
+  border: 2px solid #8E8E8E;
+  border-radius: 10px;
+  font-size: 60px;
+  background-color: white; 
+  color: #383838;
+}
+
+#author-name {
+  /*display: inline-block;*/
+  margin-top: 30px;
+  /*width:100%;*/
+}
