@@ -1,6 +1,6 @@
 body{
   background-color: gray;
-  background-image: url('background.jpg');
+  background-image: url('../img/background.jpg');
   background-position: top left;
   background-repeat: repeat;
  }
@@ -44,6 +44,7 @@ input#player-input {
   height: 100px;
   width: 100px;
   font-size: 30px;
+  color: black;
   /* border: 1px solid gray; */
 }
 
